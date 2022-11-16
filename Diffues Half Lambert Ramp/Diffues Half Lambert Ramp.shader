@@ -3,6 +3,7 @@ Shader "Custom/Diffues Half Lambert Ramp"
     Properties
     {
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
+        _Color ("Color",Color)=(1,1,1,1)
     }
     SubShader
     {
@@ -13,6 +14,8 @@ Shader "Custom/Diffues Half Lambert Ramp"
         
         #pragma surface surf BasicDiffuse
 
+
+        fixed4 _Color;
         sampler2D _MainTex;
 
         struct Input
@@ -23,9 +26,8 @@ Shader "Custom/Diffues Half Lambert Ramp"
         
         void surf (Input IN, inout SurfaceOutput o)
         {
-            half4 c = tex2D (_MainTex, IN.uv_MainTex);
-            o.Albedo = c.rgb;
-            o.Alpha=c.a;
+            o.Albedo = _Color.rgb;
+            o.Alpha=_Color.a;
         }
         
         inline float4 LightingBasicDiffuse (SurfaceOutput s, fixed3 lightDir, fixed atten)
