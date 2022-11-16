@@ -1,3 +1,4 @@
 Использование диффузного освещения с рамп текстурой чтобы в зависимости от положения солнца(в тени левый цвет текстры, на свету правый) был разный цвет как в teamfortress
 ***
-![image](https://user-images.githubusercontent.com/38101615/202132459-706740a8-ed9a-481e-b272-5ff3e1ea9d24.png)
+![image](https://user-images.githubusercontent.com/38101615/202159009-e0f5708f-9b2f-4bbb-a59b-d71c9fb94643.png)
+
