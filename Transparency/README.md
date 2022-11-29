@@ -14,6 +14,7 @@ o.Alpha задать значение.
 # Подсказки(Ключевые слова)
  - https://docs.unity3d.com/ru/530/Manual/SL-CullAndDepth.html
  - https://docs.unity3d.com/ru/2018.4/Manual/SL-ShaderLOD.html
+ - https://docs.unity3d.com/Manual/SL-SurfaceShaders.html
 ***
 ![image](https://user-images.githubusercontent.com/38101615/204515373-1651006e-f464-4fae-927a-681a5411e3d5.png)
 
